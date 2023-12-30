@@ -12,7 +12,7 @@ const app = express();
 // cors 
 const corsOptions = {
     credentials: true,
-    origin: "http://localhost:5173",
+    origin: "https://audiophile-coug.onrender.com",
     methods: "GET,POST",
     preflightContinue: true,
     optionsSuccessStatus: 200,
