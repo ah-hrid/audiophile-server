@@ -14,7 +14,7 @@ const corsOptions = {
     credentials: true,
     origin: "http://localhost:5173",
     methods: "GET,POST",
-    preflightContinue: false,
+    preflightContinue: true,
     optionsSuccessStatus: 200,
     allowedHeaders: 'Content-Type'
 };
